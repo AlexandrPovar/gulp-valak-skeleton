@@ -1,0 +1,49 @@
+.intro__text {
+    font-size: 1.2rem;
+    color: $gray_dark;
+
+    @media(max-width: $breckpoint_s) {
+        color: $black;
+        margin-bottom: 1.5rem;
+    }
+    @media(max-width: $breckpoint_xs) {
+        margin-bottom: 0;
+    }
+}
+
+.intro__title {
+    margin-bottom: .5rem;
+
+    font-size: 3.2rem;
+    line-height: 1.2;
+    color: $black;
+    font-weight: 600;
+
+    @media(max-width: $breckpoint_s) {
+        font-size: 2.4rem;
+        line-height: 1;
+        margin-bottom: 1.8rem;
+    }
+}
+
+.intro__subtitle {
+    margin-bottom: 2rem;
+
+    font-size: 1.6rem;
+    color: $black;
+    font-weight: 400;
+
+    @media(max-width: $breckpoint_s) {
+        font-size: 1.2rem;
+        line-height: 1.4;
+       
+    }
+}
+
+.intro__subtitle-pink {
+    color: $pink;
+
+    @media(max-width: $breckpoint_s) {
+        
+    }
+}

@@ -1,0 +1,7 @@
+.footer {
+    padding-bottom: 2rem;
+
+    @media(max-width: $breckpoint_s) {
+        padding-bottom: 1rem;
+    }
+}

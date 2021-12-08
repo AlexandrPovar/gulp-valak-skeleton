@@ -1,0 +1,9 @@
+.page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    @media(max-width: $breckpoint_s) {
+       width: 100%;
+    }
+}
